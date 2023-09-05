@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const projectsSection = styled.div`
-    padding-top: 250px;
+    padding-top: 150px;
     display: flex;
     align-items: center;
     text-align: left;
@@ -11,7 +11,7 @@ export const titles = styled.h1`
     font-family: 'Brygada 1918', serif;
     color: #000000;
     text-align: left;
-    margin-left: 240px; 
+    margin-left: 230px; 
     margin-right:55%;
     font-weight: bolder;
     font-size: 45px;

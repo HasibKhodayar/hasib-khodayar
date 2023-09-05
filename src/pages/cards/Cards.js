@@ -1,7 +1,8 @@
 import { CCard, CRow,CCol, CCardImage, CCardBody,CCardTitle,CCardText,CCardFooter} from '@coreui/react'
 import img1 from '../images/tictactoe.jpg'
 import img2 from '../images/sysc.jpg'
-import "./cards.css"
+
+import '@coreui/coreui/dist/css/coreui.min.css'
 
 const Cards = () => {
 
@@ -12,7 +13,7 @@ const Cards = () => {
         <div className='cc'>
         <CRow xs={{ cols: 1, gutter: 4 }} md={{ cols: 2 }}>
             <CCol xs>
-                <CCard  >
+                <CCard style={{width:'50rem'}} >
                     <CCardImage className='img' orientation="top" src={img1} />
                     <CCardBody>
                         <CCardTitle>Card title</CCardTitle>
@@ -27,7 +28,7 @@ const Cards = () => {
                 </CCard>
             </CCol>
             <CCol xs>
-                <CCard>
+                <CCard style={{width:'50rem'}}>
                     <CCardImage className='img' orientation="top" src={img2} />
                     <CCardBody>
                         <CCardTitle>Card title</CCardTitle>
