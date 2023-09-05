@@ -1,0 +1,67 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #DDC6B6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Brygada 1918', serif;
+    font-size: 20px;
+    gap: 20px; 
+}
+
+.navbar .rightside {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-right: 38%;
+}
+
+.navbar .leftside {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #262223;
+    text-decoration: none;
+    flex: 1;
+    margin-left: 10%;
+    
+}
+
+
+
+.navbar a{
+    color: #262223;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.navbar a:hover{
+    color: #948185;
+    cursor: pointer;
+}
+
+.navbar a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #262223;
+
+    position: absolute;
+    top: 0;
+    
+    transition: all ease-in-out 250ms;
+}
+
+.navbar a:hover::before{
+    width: 4.5%;
+}
+
+
