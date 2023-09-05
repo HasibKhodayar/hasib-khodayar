@@ -1,3 +1,4 @@
+import Cards from "../cards/Cards";
 import * as styles from "./projectElements"
 
 
@@ -13,6 +14,7 @@ const Projects = () => {
 
             <styles.textContainer> 
             <styles.titles>projects</styles.titles>
+            <styles.imgContainer><Cards/></styles.imgContainer>
            </styles.textContainer>
           
 

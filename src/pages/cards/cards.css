@@ -2,18 +2,22 @@
     padding: 20px;
    
     --cui-card-border-width:5rem;
-    color: #fff;
+    color: red;
     border-color: black;
     border-width: 10rem;
     --cui-card-border-color: 'red'
 }
 
+.cc {
+    width: 100px;
+    border: 1px solid red;
+}
 .text{
     font-size: 10px;
 }
 
 
 .img{
-    width: 50%;
-    height: 30%;
+    width: 10px;
+    height: 10px;
 }

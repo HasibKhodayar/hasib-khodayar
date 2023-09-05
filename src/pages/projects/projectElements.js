@@ -8,7 +8,7 @@ export const projectsSection = styled.div`
 `
 
 export const titles = styled.h1`
-    font-family: 'Brygada 1918', serif;
+    font-family: monospace;
     color: #000000;
     text-align: left;
     margin-left: 230px; 
@@ -25,14 +25,15 @@ export const textContainer = styled.div`
     font-size: 25px;
   
     color: #DDC6B6 ;
-    font-family: 'Brygada 1918', serif;
+    font-family: monospace;
 
 `
 
 export const imgContainer = styled.div`
-
-flex: 1;
-padding: 10px;
-margin-left: 12%;
+    flex: 1;
+    padding: 10px;
+    margin-left: 15%;
+    font-size: medium;
+    font-family: monospace;
 `
 

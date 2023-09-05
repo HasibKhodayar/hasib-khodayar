@@ -9,7 +9,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'Brygada 1918', serif;
+    font-family: monospace;
     font-size: 20px;
     gap: 20px; 
 }

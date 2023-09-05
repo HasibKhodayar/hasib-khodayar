@@ -31,14 +31,18 @@ export const wrapper = styled.div`
 `
 
 export const typewritter = styled.div`
-  width: 13ch;
+  width: 14ch;
   color:  #DDC6B6;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 2em;
+  font-size: 3em;
   animation: ${typingAnimation} 2s steps(13) forwards,
              ${blinkAnimation} 0.5s step-end infinite alternate forwards;
+`
+
+export const cardContainer = styled.div`
+  width: 55rem;
 `

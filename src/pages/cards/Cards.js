@@ -1,44 +1,43 @@
 import { CCard, CRow,CCol, CCardImage, CCardBody,CCardTitle,CCardText,CCardFooter} from '@coreui/react'
 import img1 from '../images/tictactoe.jpg'
 import img2 from '../images/sysc.jpg'
+import * as styled from '../home/homeElements'
 
-import '@coreui/coreui/dist/css/coreui.min.css'
 
 const Cards = () => {
-
+    const card_width = '20rem';
+    const card_height = '32rem'; // if want cards to all have same height
 
 
     return(
         <>
-        <div className='cc'>
-        <CRow xs={{ cols: 1, gutter: 4 }} md={{ cols: 2 }}>
+        <styled.cardContainer>
+        <CRow xs={{ cols: 2, gutter: 0 }}>
             <CCol xs>
-                <CCard style={{width:'50rem'}} >
-                    <CCardImage className='img' orientation="top" src={img1} />
+                <CCard style={{width:card_width, height:card_height}} >
+                    <CCardImage orientation="top" src={img1} />
                     <CCardBody>
-                        <CCardTitle>Card title</CCardTitle>
+                        <CCardTitle>TIC-TAC-TOE</CCardTitle>
                         <CCardText className='text'>
-                            This is a wider card with supporting text below as a natural lead-in to additional
-                            content. This content is a little bit longer.
+                        Built using React, my Tic-Tac-Toe project is a modern web application that showcases real-time gameplay, winning logic, and customization features. Players can enjoy interactive matches against AI or friends on various devices, making it an impressive addition to my portfolio.
                         </CCardText>
                     </CCardBody>
                     <CCardFooter>
-                        <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                        <small className="text-medium-emphasis">March 2023</small>
                     </CCardFooter>
                 </CCard>
             </CCol>
             <CCol xs>
-                <CCard style={{width:'50rem'}}>
-                    <CCardImage className='img' orientation="top" src={img2} />
+                <CCard style={{width:card_width, height:card_height}}>
+                    <CCardImage orientation="top" src={img2} />
                     <CCardBody>
-                        <CCardTitle>Card title</CCardTitle>
+                        <CCardTitle>Success in SYSC</CCardTitle>
                         <CCardText className='text'>
-                            This is a wider card with supporting text below as a natural lead-in to additional
-                            content. This content is a little bit longer.
+                        "Success in Sysc" is our team's React-based website, assisting engineering students with GPA calculations, class resources, and study aids. It's a user-friendly platform designed to streamline academic tasks and support students in achieving success.
                         </CCardText>
                     </CCardBody>
                     <CCardFooter>
-                        <small className="text-medium-emphasis">Last updated 3 mins ago</small>
+                        <small className="text-medium-emphasis">July 2023</small>
                     </CCardFooter>
                 </CCard>
             </CCol>
@@ -46,7 +45,7 @@ const Cards = () => {
             
 
         </CRow>
-        </div>
+        </styled.cardContainer>
         </>
     )
 }

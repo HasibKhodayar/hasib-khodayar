@@ -9,7 +9,7 @@ export const aboutSection = styled.div`
 
 
 export const titles = styled.h1`
-    font-family: 'Brygada 1918', serif;
+    font-family: monospace;
     color: #000000;
     text-align: left;
     margin-left: 0px; 
@@ -27,7 +27,7 @@ export const textContainer = styled.div`
     font-size: 25px;
   
     color: #DDC6B6 ;
-    font-family: 'Brygada 1918', serif;
+    font-family: monospace;
 
 `
 

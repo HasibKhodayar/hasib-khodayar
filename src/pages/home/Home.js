@@ -18,7 +18,7 @@ const Home = () =>{
         <Element name = "home"> 
         <styles.wrapper>
             <styles.typewritter>
-                Hi, Im Hasib.
+                hi, i'm hasib.
             </styles.typewritter>
         </styles.wrapper>
         </Element>

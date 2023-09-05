@@ -8,14 +8,14 @@ const About = () =>{
             
             <styles.titles> /about me </styles.titles> 
             
-            Hi, i'm Hasib! I'm a second-year software engineering student, currently completing my second semester at Carleton University.
+            Greetings! I'm Hasib, and I'm currently in my third year of studying Software Engineering at Carleton University. Exploring the seamless fusion of cutting-edge technology with user-centric design is what truly ignites my passion.
+
             <br/>
             <br/>
-            My goal is to explore different areas in tech, as well as connect with different people and build new relationships. 
+            My recent endeavors have revolved around delving deep into the functionalities of frameworks like React and Spring Boot.
             <br/>
             <br/>
-            Some technologies that I've been working with are: Python, React.js, Javascript, and HTML & CSS. 
-        
+            Here, you'll discover my ventures, musings, and undertakings as I endeavor to push the boundaries of software engineering, one code at a time.        
         </styles.textContainer>
         
         <styles.imgContainer> <img src="/IMAGES/mainPic.svg" alt="pic"/> </styles.imgContainer>
