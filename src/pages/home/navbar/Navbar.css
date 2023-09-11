@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     flex: 1;
-    margin-right: 38%;
+    margin-right: 30%;
 }
 
 .navbar .leftside {
@@ -28,8 +28,10 @@
     align-items: center;
     color: #262223;
     text-decoration: none;
-    flex: 1;
     margin-left: 10%;
+    flex: 1;
+    font-size: 20px;
+    
     
 }
 
@@ -38,7 +40,7 @@
 .navbar a{
     color: #262223;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     margin: 20px;
 }
 

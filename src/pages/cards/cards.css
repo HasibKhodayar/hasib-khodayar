@@ -1,5 +1,5 @@
 .card{
-    padding: 20px;
+    padding: 15px;
    
     --cui-card-border-width:5rem;
     color: red;
@@ -14,10 +14,18 @@
 }
 .text{
     font-size: 10px;
+    color: #262223;
 }
 
 
 .img{
     width: 10px;
     height: 10px;
+}
+
+.card-title{
+    color: #262223;
+}
+.sc-hLclGa .gSWsHL{
+    width:100rem;
 }

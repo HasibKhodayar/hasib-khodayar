@@ -38,11 +38,11 @@ export const typewritter = styled.div`
   overflow: hidden;
   border-right: 3px solid;
   font-family: monospace;
-  font-size: 3em;
+  font-size: 2em;
   animation: ${typingAnimation} 2s steps(13) forwards,
              ${blinkAnimation} 0.5s step-end infinite alternate forwards;
 `
 
 export const cardContainer = styled.div`
-  width: 55rem;
+  width: 100%;
 `
