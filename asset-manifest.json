@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/hasib-khodayar/static/css/main.fd40d47b.css",
+    "main.js": "/hasib-khodayar/static/js/main.9783cc27.js",
+    "static/js/787.37faa4c4.chunk.js": "/hasib-khodayar/static/js/787.37faa4c4.chunk.js",
+    "static/media/zuul.jpg": "/hasib-khodayar/static/media/zuul.d73c9638e62832c3dae1.jpg",
+    "static/media/tictactoe.jpg": "/hasib-khodayar/static/media/tictactoe.12eb31d4a6ce0084032b.jpg",
+    "static/media/sysc.jpg": "/hasib-khodayar/static/media/sysc.57c57a91462726b46b93.jpg",
+    "index.html": "/hasib-khodayar/index.html",
+    "main.fd40d47b.css.map": "/hasib-khodayar/static/css/main.fd40d47b.css.map",
+    "main.9783cc27.js.map": "/hasib-khodayar/static/js/main.9783cc27.js.map",
+    "787.37faa4c4.chunk.js.map": "/hasib-khodayar/static/js/787.37faa4c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd40d47b.css",
+    "static/js/main.9783cc27.js"
+  ]
+}
