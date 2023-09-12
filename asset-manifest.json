@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/hasib-khodayar/static/css/main.fd40d47b.css",
-    "main.js": "/hasib-khodayar/static/js/main.dd65a3f9.js",
+    "main.js": "/hasib-khodayar/static/js/main.dc739bf5.js",
     "static/js/787.37faa4c4.chunk.js": "/hasib-khodayar/static/js/787.37faa4c4.chunk.js",
     "static/media/zuul.jpg": "/hasib-khodayar/static/media/zuul.d73c9638e62832c3dae1.jpg",
     "static/media/tictactoe.jpg": "/hasib-khodayar/static/media/tictactoe.12eb31d4a6ce0084032b.jpg",
     "static/media/sysc.jpg": "/hasib-khodayar/static/media/sysc.57c57a91462726b46b93.jpg",
+    "static/media/mainPic.svg": "/hasib-khodayar/static/media/mainPic.ad8e5d7595ec20cd9e5a83a8ac579f92.svg",
     "index.html": "/hasib-khodayar/index.html",
     "main.fd40d47b.css.map": "/hasib-khodayar/static/css/main.fd40d47b.css.map",
-    "main.dd65a3f9.js.map": "/hasib-khodayar/static/js/main.dd65a3f9.js.map",
+    "main.dc739bf5.js.map": "/hasib-khodayar/static/js/main.dc739bf5.js.map",
     "787.37faa4c4.chunk.js.map": "/hasib-khodayar/static/js/787.37faa4c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd40d47b.css",
-    "static/js/main.dd65a3f9.js"
+    "static/js/main.dc739bf5.js"
   ]
 }
