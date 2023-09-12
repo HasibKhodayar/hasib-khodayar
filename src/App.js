@@ -18,8 +18,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path = "/carousel" element = {<Cards/>}/>
-        <Route path="/" element = {<Home/>} />
-        <Route path="/" element = {<Projects/>} />
+        <Route path="/hasib-khodayar" element = {<Home/>} />
+        <Route path="/hasib-khodayar" element = {<Projects/>} />
         <Route path = "/tictactoe" element = {Tictactoe} />
       </Routes>
   </BrowserRouter>

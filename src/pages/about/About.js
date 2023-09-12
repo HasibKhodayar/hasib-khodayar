@@ -1,4 +1,5 @@
 import * as styles from "./aboutElements"
+import img from '../images/mainPic.svg'
 
 const About = () =>{
     return (
@@ -19,7 +20,7 @@ const About = () =>{
             Here, you'll discover my ventures, musings, and undertakings as I endeavor to push the boundaries of software engineering, one code at a time.        
         </styles.textContainer>
         
-        <styles.imgContainer  src="/IMAGES/mainPic.svg" alt="pic" />
+        <styles.imgContainer  src={img}alt="pic" />
         </styles.aboutSection>
         </>
     );
