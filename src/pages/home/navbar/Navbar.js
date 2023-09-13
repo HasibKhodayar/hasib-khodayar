@@ -30,9 +30,9 @@ const Navbar = () => {
             <L1 to= "projects" spy={true} smooth={true} offset={50} duration={500} > projects</L1>
             <L2 to = 'https://www.linkedin.com/in/hasibkhodayar/' target='_blank'>linkedn</L2>
             <L2 to = 'https://github.com/HasibKhodayar' target='_blank'>github</L2>
-         
-
+            <button className="contactbutton" onClick={() => window.open('mailto:khodayarhasib@gmail.com')}>mail</button>
             </div>
+            
 
         </div>
         </>

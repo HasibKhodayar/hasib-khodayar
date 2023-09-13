@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     flex: 1;
-    margin-right: 30%;
+    margin-right: 35%;
 }
 
 .navbar .leftside {
@@ -31,10 +31,7 @@
     margin-left: 10%;
     flex: 1;
     font-size: 20px;
-    
-    
 }
-
 
 
 .navbar a{
@@ -66,4 +63,22 @@
     width: 4.5%;
 }
 
+.contactbutton{
+    position: fixed;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #262223; /* Text color */
+    border: 2px solid #262223; /* Button border color */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    background-color: #DDC6B6;
+    transition: background-color 0.3s ease;
+    margin-right: 10%;
+    margin-left: 35%;
+}
+
+.contactbutton:hover{
+   background-color: #473c3e;
+}
 
