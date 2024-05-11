@@ -5,6 +5,7 @@
     width: 100%;
     height: 60px;
     background-color: #DDC6B6;
+    border-bottom: #473c3e solid ;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,6 +13,7 @@
     font-family: monospace;
     font-size: 20px;
     gap: 20px; 
+    z-index: 1000;
 }
 
 .navbar .rightside {
@@ -19,7 +21,8 @@
     display: flex;
     align-items: center;
     flex: 1;
-    margin-right: 35%;
+    margin-right: 31%;
+
 }
 
 .navbar .leftside {
@@ -41,23 +44,16 @@
     margin: 20px;
 }
 
-.navbar a:hover{
+.rightside :hover{
     color: #948185;
     cursor: pointer;
 }
 
-.navbar a::before{
-    content: '';
-    display: block;
-    height: 5px;
-    width: 0%;
-    background-color: #262223;
-
-    position: absolute;
-    top: 0;
-    
-    transition: all ease-in-out 250ms;
+.leftside :hover{
+    cursor: pointer;
+    color: #948185;
 }
+
 
 .navbar a:hover::before{
     width: 4.5%;
@@ -65,6 +61,7 @@
 
 .contactbutton{
     position: fixed;
+    top: 13px;
     font-size: 20px;
     text-align: center;
     font-weight: bold;
@@ -74,8 +71,8 @@
     cursor: pointer;
     background-color: #DDC6B6;
     transition: background-color 0.3s ease;
-    margin-right: 10%;
-    margin-left: 35%;
+
+   
 }
 
 .contactbutton:hover{
