@@ -2,6 +2,7 @@ import Navbar from "./navbar/Navbar";
 import * as styles from './homeElements'
 import Projects from "../projects/Projects";
 import About from "../about/About";
+import Experience from "../Experience/experience";
 import Element from "react-scroll/modules/components/Element";
 
 const Home = () =>{
@@ -10,10 +11,8 @@ const Home = () =>{
         <>
 
        
-    
-        <styles.homeContainer>
         <Navbar/>
-
+        <styles.homeContainer>
         
         <Element name = "home"> 
         <styles.wrapper>
@@ -24,6 +23,7 @@ const Home = () =>{
         </Element>
 
         <Element name = "about">  <About /></Element>
+        <Element name = "experience"> <Experience/> </Element>
         <Element name = "projects"> <Projects /> </Element>
         
 

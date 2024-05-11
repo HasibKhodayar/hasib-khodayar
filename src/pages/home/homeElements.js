@@ -5,7 +5,7 @@ export const homeContainer = styled.div`
     align-items: center;
     justify-content: center;
     text-align: left;
-  
+    padding-top: 60px;
     margin-top: 100px;
     width: 100%;
     height: 100%;
