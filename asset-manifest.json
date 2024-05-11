@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/hasib-khodayar/static/css/main.2e74a8d3.css",
-    "main.js": "/hasib-khodayar/static/js/main.8d2c029f.js",
+    "main.css": "/hasib-khodayar/static/css/main.f4606750.css",
+    "main.js": "/hasib-khodayar/static/js/main.f4cdf13d.js",
     "static/js/787.37faa4c4.chunk.js": "/hasib-khodayar/static/js/787.37faa4c4.chunk.js",
-    "static/media/zuul.jpg": "/hasib-khodayar/static/media/zuul.d73c9638e62832c3dae1.jpg",
-    "static/media/tictactoe.jpg": "/hasib-khodayar/static/media/tictactoe.12eb31d4a6ce0084032b.jpg",
-    "static/media/sysc.jpg": "/hasib-khodayar/static/media/sysc.57c57a91462726b46b93.jpg",
+    "static/media/Uno.png": "/hasib-khodayar/static/media/Uno.e845de0a86ffd6014462.png",
+    "static/media/fitness.png": "/hasib-khodayar/static/media/fitness.6b22ce213cc98b6c5617.png",
+    "static/media/zuul.png": "/hasib-khodayar/static/media/zuul.41a074e6a1b20127291d.png",
+    "static/media/tictactoe.png": "/hasib-khodayar/static/media/tictactoe.f940187ec40ff4edc3a3.png",
+    "static/media/sysc.png": "/hasib-khodayar/static/media/sysc.57c57a91462726b46b93.png",
     "static/media/mainPic.svg": "/hasib-khodayar/static/media/mainPic.ad8e5d7595ec20cd9e5a83a8ac579f92.svg",
     "index.html": "/hasib-khodayar/index.html",
-    "main.2e74a8d3.css.map": "/hasib-khodayar/static/css/main.2e74a8d3.css.map",
-    "main.8d2c029f.js.map": "/hasib-khodayar/static/js/main.8d2c029f.js.map",
+    "main.f4606750.css.map": "/hasib-khodayar/static/css/main.f4606750.css.map",
+    "main.f4cdf13d.js.map": "/hasib-khodayar/static/js/main.f4cdf13d.js.map",
     "787.37faa4c4.chunk.js.map": "/hasib-khodayar/static/js/787.37faa4c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e74a8d3.css",
-    "static/js/main.8d2c029f.js"
+    "static/css/main.f4606750.css",
+    "static/js/main.f4cdf13d.js"
   ]
 }
